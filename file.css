@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.content {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+/*start photo 1*/
+.frame-img {
+ background-image: url(img/Frame.png);
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    width: 100vw;
+    height: 105px;
+    padding-top: 35px;
+}
+
+.logo>img  {
+    width: 120px;
+    height: 44px;
+    margin-left: 58px;
+}
+
+nav>a {
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.542);
+}
+
+.text-frame {
+    font-weight: 400;
+    text-align: center;
+}
+
+.text-frame>h1 {
+    margin-top: 13vh;
+    font-size: 100px;
+}
+.text-frame>p {
+    margin-top: 8vh;
+    font-size: 16px;
+}
+
+.text-frame>button {
+    margin-top: 20vh;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid white;
+    width: 160px;
+    height: 44px;
+}
+/*end content 1*/
+
+/*start content*/
+
+.frame-img1 {
+background-image: url(img/Frame\ \(1\).png);
+}
+.next-frame {
+    font-weight: 400;
+    text-align: center;
+}
+
+.next-frame>h1 {
+    margin-top: 30vh;
+    font-size: 100px;
+}
+
+.next-frame>p {
+    margin-top: 8vh;
+    font-size: 16px;
+}
+
+.next-frame>button {
+    margin-top: 20vh;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid white;
+    width: 160px;
+    height: 44px;
+}
+
+.next-frame>button:hover {
+    background-color: rgba(255, 255, 255, 0.257);
+    border-color: rgba(255, 255, 255, 0.257);
+}
+
+
+.frame-img2 {
+background-image: url(img/Frame\ \(2\).png);
+}
+
+.frame-img3 {
+ background-image: url(img/Frame\ \(3\).png);
+}
+
+.frame-img4 {
+    background-image: url(img/Frame\ \(4\).png);
+   }
+
+.last-content {
+    background-color: black;
+    height: 435px;
+    text-align: center;
+    
+}
+
+.last-content>h2 {
+    font-size: 50px;
+    margin-top: 13vh;
+    
+
+}
+
+.last-content>p{
+    font-size: 23px;
+    margin-top: 2vh;
+}
+
+.last-content>button {
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    border: 1px solid white;
+    width: 160px;
+    height: 44px;
+    margin-top: 10vh;
+}
+
+.last-content>button:hover {
+    background-color: rgba(11, 10, 10, 0.257);
+    color: white;
+}
+
+footer {
+    height: 10vh;
+    font-size: 13px;
+    background-color: black;
+    color: #FFFFFF;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+
+.metadata {
+    margin-left: 58px;
+    display: inline-block;
+}
+
+.by {
+    display: inline-block;
+}
+.metadata::after {
+    content: "❤";
+    color: red;
+}
+
+.contacts>a {
+    margin-right: 20px;
+    text-decoration: none;
+}
