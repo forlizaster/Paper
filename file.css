@@ -27,6 +27,7 @@ header {
     width: 100vw;
     height: 105px;
     padding-top: 35px;
+    flex-wrap: wrap;
 }
 
 .logo>img  {
@@ -35,8 +36,9 @@ header {
     margin-left: 58px;
 }
 
+
 nav>a {
-    margin-right: 40px;
+    margin: auto 20px;
     text-decoration: none;
     font-size: 20px;
     line-height: 0px;
@@ -53,7 +55,7 @@ a:hover {
 
 .text-frame>h1 {
     margin-top: 13vh;
-    font-size: 100px;
+    font-size: 6vw;
 }
 .text-frame>p {
     margin-top: 8vh;
@@ -84,7 +86,7 @@ background-image: url(img/Frame\ \(1\).png);
 
 .next-frame>h1 {
     margin-top: 30vh;
-    font-size: 100px;
+    font-size: 6vw;
 }
 
 .next-frame>p {
@@ -129,14 +131,14 @@ background-image: url(img/Frame\ \(2\).png);
 }
 
 .last-content>h2 {
-    font-size: 50px;
+    font-size: 4vw;
     margin-top: 13vh;
     
 
 }
 
 .last-content>p{
-    font-size: 23px;
+    font-size: 2vw;
     margin-top: 2vh;
 }
 
@@ -165,9 +167,9 @@ footer {
     color: #FFFFFF;
     display: flex;
     justify-content:space-between;
+    flex-wrap: wrap;
 
 }
-
 
 .metadata {
     margin-left: 58px;
@@ -185,4 +187,5 @@ footer {
 .contacts>a {
     margin-right: 20px;
     text-decoration: none;
+    margin: auto 20px;
 }
